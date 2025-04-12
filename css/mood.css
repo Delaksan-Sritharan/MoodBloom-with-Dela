@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(240, 221, 191);
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Ensure body takes full viewport height */
+}
+
+.heading h1 {
+    text-align: center;
+    font-family: cursive;
+    padding-top: 20px; /* Reduced padding */
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap;
+    margin: 10px auto 20px; /* Reduced top margin, added bottom margin */
+    max-width: 80%;
+    height: 60vh; /* Reduced container height */
+}
+
+.clickable-image {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.clickable-image:hover {
+    transform: scale(1.1);
+}
