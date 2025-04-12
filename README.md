@@ -45,20 +45,20 @@ MoodBloom with Dela is a beautiful, interactive mood tracking application that h
 
 ### Files Structure
 moodbloom/
-├── index.html        # Splash screen
-├── mood.html         # Main application
+├── index.html
+├── mood.html
 ├── css/
-│   ├── splash.css    # Splash screen styles
-│   └── mood.css      # Main application styles
+│   ├── splash.css
+│   └── mood.css
 ├── js/
-│   ├── splash.js     # Splash screen animations
-│   └── mood.js       # Main application logic
-└── pics/             # Image assets
-├── Dela.png      # Application logo
-├── sad.webp      # Sad emoji
-├── scared.webp   # Scared emoji
-├── angry.webp    # Angry emoji
-└── happy.png     # Happy emoji
+│   ├── splash.js
+│   └── mood.js
+└── pics/
+    ├── Dela.png
+    ├── sad.webp
+    ├── scared.webp
+    ├── angry.webp
+    └── happy.png
 ### Technologies Used
 
 - HTML5
