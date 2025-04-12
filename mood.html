@@ -9,25 +9,39 @@
   <body>
     <div class="heading"><h1>I'd love to hear how your day went.</h1></div>
     <div class="emoji-container">
-      <img src="pics/sad.webp" alt="sad" class="clickable-image" id="emoji" />
-      <img
-        src="pics/scared.webp"
-        alt="scared"
-        class="clickable-image"
-        id="emoji"
-      />
-      <img
-        src="pics/angry.webp"
-        alt="angry"
-        class="clickable-image"
-        id="emoji"
-      />
-      <img
-        src="pics/happy.png"
-        alt="happy"
-        class="clickable-image"
-        id="emoji"
-      />
+      <img src="pics/sad.webp" alt="sad" class="clickable-image" data-mood="sad" />
+      <img src="pics/scared.webp" alt="scared" class="clickable-image" data-mood="scared" />
+      <img src="pics/angry.webp" alt="angry" class="clickable-image" data-mood="angry" />
+      <img src="pics/happy.png" alt="happy" class="clickable-image" data-mood="happy" />
     </div>
+    </div>
+
+    <div class="text-box">
+      <form id="mood-form">
+        <p>
+          <div id="mood-message"></div>
+          <br /><br />
+
+          <textarea name="feedback_me" id="view" required></textarea>
+        </p>
+        <input type="submit" value="Submit" />
+      </form>
+      <div></div>
+    </div>
+    <div id="submission-history">
+      <h2>Submission History</h2>
+      <table border="1" id="history-table">
+        <thead>
+          <tr>
+            <th>Date & Time</th>
+            <th>Mood</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    
+    <script src="js/mood.js"></script>
   </body>
 </html>

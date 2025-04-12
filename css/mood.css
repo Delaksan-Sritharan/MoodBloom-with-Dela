@@ -17,12 +17,12 @@ body {
     flex-wrap: wrap;
     margin: 10px auto 20px; /* Reduced top margin, added bottom margin */
     max-width: 80%;
-    height: 60vh; /* Reduced container height */
+    height: 17vh; /* Reduced container height */
 }
 
 .clickable-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
@@ -31,3 +31,34 @@ body {
 .clickable-image:hover {
     transform: scale(1.1);
 }
+
+.text-box{
+    text-align: center;
+    margin-top: 2px; 
+}
+
+#submission-history {
+    max-width: 80%;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+#history-table {
+width: 100%;
+border-collapse: collapse;
+text-align: center;
+}
+
+#history-table th,
+#history-table td {
+padding: 10px;
+}
+
+#history-table th {
+background-color: #f2b8a0;
+}
+
+#history-table tr:nth-child(even) {
+background-color: #fdf1e6;
+}
+
