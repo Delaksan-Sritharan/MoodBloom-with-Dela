@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.transition = 'opacity 0.5s ease-out';
 
         setTimeout(function () {
-            window.location.href = "mood.html";
+            window.location.href = "home.html";
         }, 500);
     }, 4000);
 });
