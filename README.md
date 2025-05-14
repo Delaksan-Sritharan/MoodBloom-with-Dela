@@ -26,7 +26,7 @@ MoodBloom with Dela is a beautiful, interactive mood tracking application that h
 - Context-sensitive prompts based on selected mood.
 - Text area for journaling thoughts.
 - Form validation with user feedback.
-<img width="1440" alt="Screenshot 2025-05-14 at 11 02 20 AM" src="https://github.com/user-attachments/assets/6be1a0fe-a0ae-4691-8c15-de4e8e9e2cb7" />
+<img width="1440" alt="Screenshot 2025-05-14 at 11 04 53 AM" src="https://github.com/user-attachments/assets/f6440b8f-4f97-4c25-b5f5-f797518ce45e" />
 
 ### Mood Journal
 
