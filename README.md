@@ -18,6 +18,7 @@ MoodBloom with Dela is a beautiful, interactive mood tracking application that h
 - Animated progress bar.
 - Smooth transition to main application.
 - Decorative background elements.
+<img width="1440" alt="Screenshot 2025-05-14 at 11 01 40 AM" src="https://github.com/user-attachments/assets/a85944ec-d7b5-458f-8337-8c3103563e24" />
 
 ### Mood Tracking Interface
 
@@ -25,6 +26,7 @@ MoodBloom with Dela is a beautiful, interactive mood tracking application that h
 - Context-sensitive prompts based on selected mood.
 - Text area for journaling thoughts.
 - Form validation with user feedback.
+<img width="1440" alt="Screenshot 2025-05-14 at 11 02 20 AM" src="https://github.com/user-attachments/assets/6be1a0fe-a0ae-4691-8c15-de4e8e9e2cb7" />
 
 ### Mood Journal
 
@@ -32,6 +34,7 @@ MoodBloom with Dela is a beautiful, interactive mood tracking application that h
 - Displays 10 most recent entries in a clean table format.
 - Shows date/time, mood with emoji, and user's message.
 - Empty state display when no entries exist.
+<img width="1440" alt="Screenshot 2025-05-14 at 11 02 54 AM" src="https://github.com/user-attachments/assets/f3001f5f-a8f2-4fd2-8ed3-b843ca8d1ed1" />
 
 ### Design Elements
 
